@@ -302,7 +302,7 @@ function main() {
   var products = getRandom()
   var printObject = { products }
   var json = JSON.stringify(printObject, null, 2);
-  fs.writeFile('db.json', json, 'utf8', () => {
+  fs.writeFile('.mockend.json', json, 'utf8', () => {
     console.log('json created')
   });
 }
