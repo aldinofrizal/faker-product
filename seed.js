@@ -248,7 +248,7 @@ var names = [
 
 function getRandom() {
   var result = []
-  for (let i = 0; i < names.length; i++) {
+  for (let i = 0; i < 10; i++) {
     var price = Math.round(Math.random() * 100) * 1000
     var name = `${names[i].first_name} ${names[i].last_name}`
     var product = {
